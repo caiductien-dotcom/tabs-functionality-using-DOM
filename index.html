@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tab-container">
+    <div class="tab-menu">
+        <button class="tab-btn active" data-target="tab1">First Tab</button>
+        <button class="tab-btn" data-target="tab2">Second Tab</button>
+        <button class="tab-btn" data-target="tab3">Third Tab</button>
+        <button class="tab-btn" data-target="tab4">Fourth Tab</button>
+    </div>
+
+    <div class="tab-content-wrapper">
+        <div id="tab1" class="tab-content active">
+            <p>Clicking each tab should hide the content of the other tab and show the content of clicked tab.</p>
+            <div class="black-box">First Tab content to be displayed here.</div>
+        </div>
+        <div id="tab2" class="tab-content">
+            <div class="black-box">Second Tab content: Exploring DOM manipulation.</div>
+        </div>
+        <div id="tab3" class="tab-content">
+            <div class="black-box">Third Tab content: Handling click events.</div>
+        </div>
+        <div id="tab4" class="tab-content">
+            <div class="black-box">Fourth Tab content: Responsive CSS Layouts.</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

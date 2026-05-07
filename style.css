@@ -1,0 +1,48 @@
+.tab-container {
+    width: 600px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff;
+}
+
+.tab-menu {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #aaa;
+    border-bottom: 3px solid transparent;
+}
+
+/* Khi tab được chọn */
+.tab-btn.active {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px solid #000;
+}
+
+/* Mặc định ẩn nội dung */
+.tab-content{
+    display:none;
+}
+
+/* Chỉ hiện nội dung khi có class active */
+.tab-content.active{
+    display:block;
+}
+
+.black-box {
+    background: #000;
+    color: #fff;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
