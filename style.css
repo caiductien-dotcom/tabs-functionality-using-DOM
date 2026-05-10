@@ -29,13 +29,13 @@
 }
 
 /* Mặc định ẩn nội dung */
-.tab-content{
-    display:none;
+.tab-content {
+    display: none;
 }
 
 /* Chỉ hiện nội dung khi có class active */
-.tab-content.active{
-    display:block;
+.tab-content.active {
+    display: block;
 }
 
 .black-box {
